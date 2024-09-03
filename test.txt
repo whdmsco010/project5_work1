@@ -35,4 +35,5 @@ git으로 관리
     git remote rm origin
 
 4. push
-    git push -u origin main
+    git push -u origin main 이거 한 번 했으면
+    그 후엔 git push만 해도 됨
