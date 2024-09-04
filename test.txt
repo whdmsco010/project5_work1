@@ -24,6 +24,10 @@
 
 8. commit 정보 확인(커밋이 몇 번 되었는지)
     git log
+    git log --graph
+    git log --graph --all
+    git log --graph --oneline
+    git log --graph --oneline --all
 
 9. 과제
     project_5/test1을 생성
@@ -84,7 +88,7 @@
     브랜치 병합
 
 1. 현재 위치에서 다른 것을 들고 옴
-    git merge 브랜치명(main에서 main으로 코드 합류)
+    git merge <합칠 브랜치명>(main에서 main으로 코드 합류)
     git add .
     git commit -m "메세지"
 
