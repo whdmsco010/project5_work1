@@ -2,9 +2,11 @@
 
 2. 초기화
     git init(한 번만)
+    -> ls -al(숨겨진 파일 확인)
+    -> .git 폴더 삭제(rm -rf .git)
 
 3. 브랜치 이름 변경하기
-    git config --global init.defaultBranch main(디폴트로 변경)
+    git config --global init.defaultBranch main(디폴트 변경)
     git branch -m master main(현재, 이전에 생성된)
 
 4. git 상태 확인
